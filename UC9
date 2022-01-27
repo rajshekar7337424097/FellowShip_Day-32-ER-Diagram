@@ -1,0 +1,10 @@
+mysql> select * from Address_book where type = "Family";
++----+------------+-----------+--------+---------------------+---------+----------------+---------+--------------+-------------------------+
+| id | first_name | last_name | type   | address             | city    | State          | zip     | phone_number | Email                   |
++----+------------+-----------+--------+---------------------+---------+----------------+---------+--------------+-------------------------+
+|  1 | ramesh     | kulkarni  | Family | madhuraNagar        | chennai | tamil nadu     | 5000093 | 9080712334   | ramesh@gmail.com        |
+|  6 | chandu     | reddy     | Family | Sanjeev Reddy Nagar | Nandyal | Andhra predesh | 593038  | 9509483849   | ChanduReddy68@gmail.com |
++----+------------+-----------+--------+---------------------+---------+----------------+---------+--------------+-------------------------+
+2 rows in set (0.00 sec)
+
+mysql>
