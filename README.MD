@@ -1,1 +1,1 @@
-CREATE employeePayroll database and creating tables
+Creating employeePayroll database and creating tables
