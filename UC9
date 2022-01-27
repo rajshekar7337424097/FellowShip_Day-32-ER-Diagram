@@ -36,3 +36,4 @@ mysql> DESCRIBE EMPLOYEE_PAYROLL;
 | NET_PAY      | double      | NO   |     | NULL    |                |
 +--------------+-------------+------+-----+---------+----------------+
 12 rows in set (0.02 sec)
+
