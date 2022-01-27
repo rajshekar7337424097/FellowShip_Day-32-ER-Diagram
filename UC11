@@ -1,0 +1,15 @@
+mysql> insert into address_book (first_name, last_name, type, address, city, state, zip, phone_number, Email) values ("chandu", "reddy", "Family", "Sanjeev Reddy Nagar", "Nandyal", "Andhra predesh", "593038", "9509483849", "ChanduReddy68@gmail.com"
+    -> );
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from Address_book;
++----+------------+-----------+--------+---------------------+-----------+----------------+---------+--------------+--------------------------+
+| id | first_name | last_name | type   | address             | city      | State          | zip     | phone_number | Email                    |
++----+------------+-----------+--------+---------------------+-----------+----------------+---------+--------------+--------------------------+
+|  1 | ramesh     | kulkarni  | Family | madhuraNagar        | chennai   | tamil nadu     | 5000093 | 9080712334   | ramesh@gmail.com         |
+|  3 | dinesh     | kumar     | friend | subhas nagar        | guntur    | Andhra pradesh | 500903  | 9060612345   | dinesh@gmail.com         |
+|  4 | rajshekar  | Reddy     | friend | Uppal               | hyderabad | Telangana      | 500039  | 9999955555   | Rajashekarreddygmail.com |
+|  5 | murali     | sharma    | friend | ngo                 | kadapa    | Andhrapradesh  | 532957  | 9858378298   | murali@gmail.com         |
+|  6 | chandu     | reddy     | Family | Sanjeev Reddy Nagar | Nandyal   | Andhra predesh | 593038  | 9509483849   | ChanduReddy68@gmail.com  |
++----+------------+-----------+--------+---------------------+-----------+----------------+---------+--------------+--------------------------+
+5 rows in set (0.00 sec)
